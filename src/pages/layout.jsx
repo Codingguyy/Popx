@@ -42,7 +42,7 @@ export default function Layout() {
       <div className="w-[375px] h-[812px] bg-white shadow-xl rounded-[30px] overflow-hidden border">
         <Outlet context={{setvlue}}/>
       </div>
-      <div className="absolute w-[207px] h-[53px] top-[53%] left-[63%] flex items-center justify-start rounded-md shadow-md bg-white">
+      <div className="absolute w-[207px] h-[53px] top-[53%] left-[73%] flex items-center justify-start rounded-md shadow-md bg-white">
         <div className="absolute w-[149px] h-[33px] top-[-45%] left-[14%] flex items-center justify-center rounded-md bg-white" style={{fontFamily:"'Robotomono',monospace"}}>{iconarray[value].title}</div>
         <Currenticon size={33} color="black" className="ml-[23px]"/>
         <ChevronLeft size={23} color="gray" className="ml-[63px]" onClick={(e)=>{e.stopPropagation();handlenavigate("left")}}/>
